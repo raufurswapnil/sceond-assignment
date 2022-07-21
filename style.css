@@ -1,0 +1,261 @@
+/* Google font */
+
+body {
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*---------header--------- */
+
+header {
+    display: flex;
+    background-color: black;
+    margin: 50px 130px;
+    color: white;
+    border-radius: 30px;
+    height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+p {
+    font-size: 19px;
+}
+
+.first-text {
+    text-align: left;
+    width: 50%;
+    margin: 50px;
+    margin-left: 40px;
+}
+
+.Marcelo {
+    height: 400px;
+}
+
+.watch-live {
+    padding: 10px;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+/* -----------------
+        section 
+-------------------- */
+
+.buttons {
+    width: 33%;
+}
+
+.button-information {
+    background-color: black;
+    border-radius: 10px;
+    padding: 13px;
+}
+
+.first {
+    font-size: 30px;
+    width: 250px;
+    height: 40px;
+    margin: 25px;
+    border-radius: 30px;
+
+}
+
+.last {
+    font-size: 30px;
+    width: 250px;
+    height: 40px;
+    margin: 25px;
+    border-radius: 30px;
+    color: white;
+    background-color: red;
+}
+
+section {
+    display: flex;
+    margin: 45px 128px;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+}
+
+.icon {
+    display: flex;
+}
+
+.blog-information {
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.content {
+    margin-right: 30px;
+}
+
+.transfer {
+    padding: 7px 15px;
+    font-size: 16px;
+    border-radius: 7px;
+}
+
+.blog-picture {
+    width: 100%;
+}
+
+.icon-info {
+    margin-right: 30px;
+}
+
+/* section end */
+
+
+/*----------------- Footer------------------ */
+
+
+.goal {
+    text-align: center;
+    color: aliceblue;
+}
+
+footer {
+    background-color: black;
+    padding: 0 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.contact {
+    text-align: center;
+    margin: 50px 200px;
+    margin-top: 100px;
+}
+
+.last-information {
+    color: brown;
+    font-size: 19px;
+}
+
+/* ENd */
+
+
+/*---------------------------
+               \\\\\\\\     Phone \\\\\\\\                 -------------------------- */
+
+
+
+
+@media only screen and (max-width:688px) {
+    header {
+        width: 200%;
+        flex-direction: column;
+        height: auto;
+        margin: 30px;
+        align-items: center;
+
+    }
+
+    .Marcelo {
+        margin-left: 200px;
+    }
+
+    .first-text {
+        text-align: center;
+    }
+
+    section {
+        width: 180%;
+        margin: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttons {
+        margin-right: 200px;
+    }
+
+    .button-information {
+        background-color: white;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    footer {
+        width: 220%;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .last-information {
+        margin-top: 40px;
+    }
+
+
+
+    /* Tablet View */
+
+    @media only screen and (max-width: 992px) {
+        header {
+            margin: 50px;
+            width: 140%;
+        }
+
+        .first-text {
+            margin: 30px;
+            width: 50%;
+        }
+
+        section {
+            margin: 50px;
+            width: 140px;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        .buttons {
+            display: flex;
+        }
+
+        .button-information {
+            background-color: white;
+            display: flex;
+            width: 1000px;
+
+        }
+
+        .blogs {
+            grid-template-columns: repeat(2, 1fr);
+            width: 1000px;
+            margin-left: 25px;
+        }
+
+        .footer {
+            width: 140px;
+        }
+
+        .picture1 {
+            width: 50%;
+            margin-right: 150px;
+        }
+
+    }
